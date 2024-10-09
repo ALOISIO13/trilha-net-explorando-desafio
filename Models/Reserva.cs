@@ -46,8 +46,7 @@ namespace DesafioProjetoHospedagem.Models
             // *IMPLEMENTADO*
             decimal valor = DiasReservados * Suite.ValorDiaria;
 
-            
-            // *IMPLEMENTADO *
+                // *IMPLEMENTADO *
             if (DiasReservados >= 10)
             {
                 valor -= Decimal.Divide(Decimal.Multiply(valor, 10), 100) ;
